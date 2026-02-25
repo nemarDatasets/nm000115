@@ -1,0 +1,18 @@
+{
+  "SpatialReference": "CapTrak",
+  "name": {
+    "Description": "Electrode name."
+  },
+  "x": {
+    "Description": "Electrode position x coordinate in the stated coordinate system.",
+    "Units": "m"
+  },
+  "y": {
+    "Description": "Electrode position y coordinate in the stated coordinate system.",
+    "Units": "m"
+  },
+  "z": {
+    "Description": "Electrode position z coordinate in the stated coordinate system.",
+    "Units": "m"
+  }
+}
