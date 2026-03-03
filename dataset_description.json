@@ -1,30 +1,31 @@
 {
-    "Name": "Zhou2016",
-    "BIDSVersion": "1.9.0",
-    "Version": "1.0.0",
-    "DatasetType": "raw",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Bangyan Zhou",
-        "Xiaopei Wu",
-        "Zongtan Lv",
-        "Lei Zhang",
-        "Xiaojin Guo"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.1371/journal.pone.0162657"
-    ],
-    "GeneratedBy": [
-        {
-            "Name": "moabb",
-            "Version": "1.2.0",
-            "Description": "Mother of All BCI Benchmarks",
-            "CodeURL": "https://github.com/NeuroTechX/moabb"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.1371/journal.pone.0162657"
-        }
-    ]
+  "Name": "Zhou2016",
+  "BIDSVersion": "1.9.0",
+  "Version": "1.0.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Bangyan Zhou",
+    "Xiaopei Wu",
+    "Zongtan Lv",
+    "Lei Zhang",
+    "Xiaojin Guo"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1371/journal.pone.0162657"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "moabb",
+      "Version": "1.2.0",
+      "Description": "Mother of All BCI Benchmarks",
+      "CodeURL": "https://github.com/NeuroTechX/moabb"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1371/journal.pone.0162657"
+    }
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000115"
 }
