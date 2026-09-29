@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Zhou2016",
+  "description": "EEG recordings from four participants performing motor imagery of the left hand, right hand, and feet, originally reported by Zhou et al. (2016) in a study on automated trial selection for motor imagery brain-computer interfaces. Each participant completed three sessions of two runs, giving 450 trials per subject. Data were recorded from 14 channels at 250 Hz and reformatted into BIDS from a MOABB-generated Zenodo version.",
+  "methods_description": "EEG was recorded from 14 channels placed according to the extended 10/20 system at 250 Hz. Each run had 75 trials (25 per class), with an auditory cue, a 5-second visual arrow cue for motor imagery, and a 4-second rest. Each participant completed three sessions of two runs. MOABB preprocessing extracted the 14 channels, annotated events with 5-second durations, resampled to 250 Hz, and exported to EDF.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Bangyan Zhou": {},
     "Xiaopei Wu": {},
@@ -8,6 +13,29 @@
     "Lei Zhang": {},
     "Xiaojin Guo": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "trial selection"
+    },
+    {
+      "term": "MOABB"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1371/journal.pone.0162657",
@@ -20,11 +48,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000115",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -33,36 +56,27 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000115",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Zhou2016",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
-  "description": "This dataset comprises EEG recordings from four subjects performing motor imagery tasks (left hand, right hand, and feet) across three sessions. The data includes 14-channel EEG recordings sampled at 250 Hz, with a total of 450 trials per subject. The dataset was originally collected to investigate automated trial selection methods for optimization of motor imagery-based brain-computer interfaces and has been reformatted into BIDS format.",
-  "methods_description": "EEG was recorded from 14 channels placed according to the extended 10/20 system (Fp1, Fp2, FC3, FCz, FC4, C3, Cz, C4, CP3, CPz, CP4, O1, Oz, O2) at a sampling frequency of 250 Hz with 50 Hz power line frequency. Each trial began with an auditory cue followed by a 5-second visual arrow stimulus indicating the motor imagery task, then a 4-second rest period. Four participants completed three recording sessions, each containing two runs with 75 trials per run (25 trials per class).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "trial selection"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    }
+  "sizes": [
+    "152 MB (25 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "e45cc54c1418fe676e8714528fdc5a081076f3fa8b63f66e70c0f35787a84672"
 }
